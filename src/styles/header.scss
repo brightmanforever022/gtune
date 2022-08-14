@@ -1,0 +1,55 @@
+.app-header {
+  margin-top: 38px;
+  font-family: 'Inter';
+  .app-logo {
+    display: flex;
+    p {
+      margin-top: 25px;
+      margin-right: 28px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #339D51;
+    }
+  }
+
+  .header-search {
+    margin-top: 20px;
+    p {
+      margin-top: 30px;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 61px;
+      color: #73562B;
+      text-align: center;
+    }
+  }
+
+  .header-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    .menu-icon, .cart-icon {
+      font-size: 21px;
+      svg {
+        color: #4B508C;
+      }
+    }
+    .cart-icon {
+      margin-left: 60px;
+      margin-top: -8px;
+      span {
+        display: block;
+        width: 14px;
+        height: 14px;
+        margin-left: 15px;
+        margin-top: -6px;
+        font-size: 11px;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #4B508C;
+      }
+    }
+  }
+}
