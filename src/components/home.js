@@ -9,7 +9,7 @@ import { categories, products } from '../constants';
 import '../styles/home.scss';
 
 const Home = () => {
-  const [selectedCategories, setSelectedCategories] = useState([]);
+  const [selectedCategories, setSelectedCategories] = useState([2]);
   const [selectedProducts, setSelectedProducts] = useState(products);
 
   useEffect(() => {
@@ -58,7 +58,7 @@ const Home = () => {
     </div>
   );
 
-  const allProductList = selectedProducts.slice(0, 3).map((product, index) => 
+  const allProductList = products.slice(0, 3).map((product, index) => 
     <div className='product-item' key={index}>
       <ProductCard
         product={product}

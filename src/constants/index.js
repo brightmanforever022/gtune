@@ -71,72 +71,6 @@ export const products = [
   {
     id: 1,
     category: 1,
-    title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
-    price: 299.99,
-    img_url: image1,
-    features: [
-      'Clean out small and large intestine',
-      'Improve immune system',
-      'Soften and dissolve gallbladder stones',
-      'Improves energy and focus',
-      'Maintain muscle and reduce fat',
-    ]
-  },
-  {
-    id: 2,
-    category: 1,
-    title: 'GreenTune 7 Day Intestinal Detox',
-    price: 299.99,
-    img_url: image2,
-    features: [
-      'Improve digestion system',
-      'Improve intestional strength and health',
-      'Decrease inflammation in the intestines',
-      'Rich source of vitamins and antioxidants',
-    ]
-  },
-  {
-    id: 3,
-    category: 1,
-    title: 'GreenTune 21 Day Parasite Remover Cleanse',
-    price: 299.99,
-    img_url: image2,
-    features: [
-      'Get rid of unwanted bacteria and parasites',
-      'Strengthens the immune system',
-      'Helps with colds, congestion, urinary tract infections and intestinal worms',
-    ]
-  },
-  {
-    id: 4,
-    category: 2,
-    title: 'GreenTune 7 Day Intestinal Detox',
-    price: 299.99,
-    img_url: image2,
-    features: [
-      'Improve digestion system',
-      'Improve intestional strength and health',
-      'Decrease inflammation in the intestines',
-      'Rich source of vitamins and antioxidants',
-    ]
-  },
-  {
-    id: 5,
-    category: 2,
-    title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
-    price: 299.99,
-    img_url: image1,
-    features: [
-      'Clean out small and large intestine',
-      'Improve immune system',
-      'Soften and dissolve gallbladder stones',
-      'Improves energy and focus',
-      'Maintain muscle and reduce fat',
-    ]
-  },
-  {
-    id: 6,
-    category: 2,
     title: 'Digest Aid',
     price: 299.99,
     img_url: image1,
@@ -144,6 +78,66 @@ export const products = [
       'Strengthen gut health',
       'Prevent stress to the body and cells',
       'Rich in vitamins',
+    ]
+  },
+  {
+    id: 2,
+    category: 1,
+    title: 'Blood & Lymph',
+    price: 299.99,
+    img_url: image2,
+    features: [
+      'Helps prevent and battles infections',
+      'Improves circulation',
+    ]
+  },
+  {
+    id: 3,
+    category: 1,
+    title: 'Evacu-Ease',
+    price: 299.99,
+    img_url: image2,
+    features: [
+      'Laxative that improves intestinal wellness',
+    ]
+  },
+  {
+    id: 4,
+    category: 2,
+    title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
+    price: 299.99,
+    img_url: image1,
+    features: [
+      'Clean out small and large intestine',
+      'Improve immune system',
+      'Soften and dissolve gallbladder stones',
+      'Improves energy and focus',
+      'Maintain muscle and reduce fat',
+    ]
+  },
+  {
+    id: 5,
+    category: 2,
+    title: 'GreenTune 7 Day Intestinal Detox',
+    price: 299.99,
+    img_url: image2,
+    features: [
+      'Improve digestion system',
+      'Improve intestional strength and health',
+      'Decrease inflammation in the intestines',
+      'Rich source of vitamins and antioxidants',
+    ]
+  },
+  {
+    id: 6,
+    category: 2,
+    title: 'GreenTune 21 Day Parasite Remover Cleanse',
+    price: 299.99,
+    img_url: image2,
+    features: [
+      'Get rid of unwanted bacteria and parasites',
+      'Strengthens the immune system',
+      'Helps with colds, congestion, urinary tract infections and intestinal worms',
     ]
   },
   {
@@ -416,7 +410,7 @@ export const products = [
   },
   {
     id: 29,
-    category: 2,
+    category: 4,
     title: 'Evacu-Ease',
     price: 299.99,
     img_url: image2,
