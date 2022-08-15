@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 import Logo from './logo';
 import Search from './search';
 import HeaderIcons from './headerIcons';
-
 import '../../styles/header.scss';
 
 function Header() {

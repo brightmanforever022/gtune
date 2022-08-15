@@ -6,8 +6,8 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import Accordion from 'react-bootstrap/Accordion';
 import { BsSearch } from 'react-icons/bs';
-import { faqData } from '../constants';
 
+import { faqData } from '../constants';
 import '../styles/faq.scss';
 
 const Faq = () => {

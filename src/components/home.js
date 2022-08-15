@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 
 import CategoryItem from './product/category';
 import ProductCard from './product/productCard';
-
 import { categories, products } from '../constants';
 import '../styles/home.scss';
 

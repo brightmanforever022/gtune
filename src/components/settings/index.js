@@ -7,7 +7,6 @@ import ShippingAndBillings from './shipping';
 import Payment from './payment';
 import Password from './password';
 import Email from './email';
-
 import '../../styles/settings.scss';
 
 const Settings = () => {
