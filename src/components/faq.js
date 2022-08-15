@@ -23,6 +23,7 @@ const Faq = () => {
     const searchText = evt.target.value;
     setQuery(searchText);
   }
+
   const accItems = faqList.map((faq, index) => 
     <Accordion.Item eventKey={index} key={index}>
       <Accordion.Header className='faq-title'>{faq.title}</Accordion.Header>
