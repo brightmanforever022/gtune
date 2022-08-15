@@ -83,7 +83,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 2,
     category: 1,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
@@ -96,7 +96,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 3,
     category: 1,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
@@ -108,7 +108,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 4,
     category: 2,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
@@ -121,7 +121,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 5,
     category: 2,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
@@ -135,7 +135,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 6,
     category: 2,
     title: 'Digest Aid',
     price: 299.99,
@@ -147,7 +147,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 7,
     category: 3,
     title: 'Blood & Lymph',
     price: 299.99,
@@ -158,7 +158,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 8,
     category: 3,
     title: 'Digest Aid',
     price: 299.99,
@@ -170,7 +170,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 9,
     category: 3,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
@@ -183,7 +183,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 10,
     category: 3,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
@@ -195,7 +195,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 11,
     category: 4,
     title: 'Evacu-Ease',
     price: 299.99,
@@ -205,7 +205,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 12,
     category: 4,
     title: 'Blood & Lymph',
     price: 299.99,
@@ -216,7 +216,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 13,
     category: 4,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
@@ -229,7 +229,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 14,
     category: 5,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
@@ -243,7 +243,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 15,
     category: 5,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
@@ -257,7 +257,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 16,
     category: 5,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
@@ -271,7 +271,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 17,
     category: 6,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
@@ -283,7 +283,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 18,
     category: 6,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
@@ -295,7 +295,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 19,
     category: 6,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
@@ -307,7 +307,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 20,
     category: 7,
     title: 'Blood & Lymph',
     price: 299.99,
@@ -318,7 +318,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 21,
     category: 7,
     title: 'Blood & Lymph',
     price: 299.99,
@@ -329,7 +329,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 22,
     category: 7,
     title: 'Blood & Lymph',
     price: 299.99,
@@ -340,7 +340,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 23,
     category: 8,
     title: 'Digest Aid',
     price: 299.99,
@@ -352,7 +352,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 24,
     category: 8,
     title: 'Digest Aid',
     price: 299.99,
@@ -364,7 +364,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 25,
     category: 8,
     title: 'Digest Aid',
     price: 299.99,
@@ -376,7 +376,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 26,
     category: 9,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
@@ -389,7 +389,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 27,
     category: 9,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
@@ -402,7 +402,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 28,
     category: 9,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
@@ -415,7 +415,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 29,
     category: 2,
     title: 'Evacu-Ease',
     price: 299.99,
@@ -425,7 +425,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 30,
     category: 3,
     title: 'Evacu-Ease',
     price: 299.99,
@@ -435,7 +435,7 @@ export const products = [
     ]
   },
   {
-    id: 1,
+    id: 31,
     category: 1,
     title: 'Evacu-Ease',
     price: 299.99,

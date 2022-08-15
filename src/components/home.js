@@ -38,7 +38,7 @@ const Home = () => {
   }
 
   function addToCart(productId) {
-    alert('you added to cart this product', productId);
+    alert(`you added to cart this product ${productId}`);
   }
 
   const categoryList = categories.map((cat, index) => 
@@ -50,7 +50,16 @@ const Home = () => {
       />
     </li>
   );
-  const productList = selectedProducts.map((product, index) => 
+  const featuredProductList = selectedProducts.map((product, index) => 
+    <div className='product-item' key={index}>
+      <ProductCard
+        product={product}
+        addToCart={addToCart}
+      />
+    </div>
+  );
+
+  const allProductList = selectedProducts.slice(0, 3).map((product, index) => 
     <div className='product-item' key={index}>
       <ProductCard
         product={product}
@@ -66,8 +75,14 @@ const Home = () => {
           <ul>{categoryList}</ul>
         </Col>
         <Col lg={9} xs={12}>
+          <h2>Featured Cleanses</h2>
           <div className='product-list'>
-            {productList}
+            {featuredProductList}
+          </div>
+          <div className='split-line' />
+          <h2>All Products</h2>
+          <div className='product-list'>
+            {allProductList}
           </div>
         </Col>
       </Row>

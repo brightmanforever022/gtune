@@ -15,10 +15,8 @@ const ProductCard = ({product, addToCart}) => {
           <ul className='feature-list'>{featureList}</ul>          
         </div>
       </div>
-      {/* <div className='price-cart'> */}
-        <p className='product-price'>${product.price}</p>
-        <Button variant="primary" onClick={() => addToCart(product.id)}>Add to Cart</Button>
-      {/* </div> */}
+      <p className='product-price'>${product.price}</p>
+      <Button variant="primary" onClick={() => addToCart(product.id)}>Add to Cart</Button>
     </>
   )
 };
