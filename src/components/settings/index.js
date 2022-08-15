@@ -19,6 +19,9 @@ const Settings = () => {
   function closeModal () {
     setShow(false);
   }
+  function deleteAccount() {
+    alert('you are gonna delete account');
+  }
 
   return (
     <Container className='settings-container' fluid>
@@ -67,7 +70,7 @@ const Settings = () => {
           </div>
         </Col>
       </Row>
-      <a href="#">Delete Account</a>
+      <a href="#" onClick={deleteAccount}>Delete Account</a>
 
       {modalType === 'shipping' && <ShippingAndBillings show={show} onClose={closeModal} />}
       {modalType === 'payment' && <Payment show={show} onClose={closeModal} />}
