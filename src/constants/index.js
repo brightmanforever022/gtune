@@ -1,3 +1,6 @@
+import image1 from '../images/product1.png';
+import image2 from '../images/product2.png';
+
 export const faqData = [
   {
     title: 'How do I find my order',
@@ -70,7 +73,7 @@ export const products = [
     category: 1,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Clean out small and large intestine',
       'Improve immune system',
@@ -84,7 +87,7 @@ export const products = [
     category: 1,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Improve digestion system',
       'Improve intestional strength and health',
@@ -97,7 +100,7 @@ export const products = [
     category: 1,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Get rid of unwanted bacteria and parasites',
       'Strengthens the immune system',
@@ -109,7 +112,7 @@ export const products = [
     category: 2,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Improve digestion system',
       'Improve intestional strength and health',
@@ -122,7 +125,7 @@ export const products = [
     category: 2,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Clean out small and large intestine',
       'Improve immune system',
@@ -136,7 +139,7 @@ export const products = [
     category: 2,
     title: 'Digest Aid',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Strengthen gut health',
       'Prevent stress to the body and cells',
@@ -148,7 +151,7 @@ export const products = [
     category: 3,
     title: 'Blood & Lymph',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Helps prevent and battles infections',
       'Improves circulation',
@@ -159,7 +162,7 @@ export const products = [
     category: 3,
     title: 'Digest Aid',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Strengthen gut health',
       'Prevent stress to the body and cells',
@@ -171,7 +174,7 @@ export const products = [
     category: 3,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Improve digestion system',
       'Improve intestional strength and health',
@@ -184,7 +187,7 @@ export const products = [
     category: 3,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Get rid of unwanted bacteria and parasites',
       'Strengthens the immune system',
@@ -196,7 +199,7 @@ export const products = [
     category: 4,
     title: 'Evacu-Ease',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Laxative that improves intestinal wellness',
     ]
@@ -206,7 +209,7 @@ export const products = [
     category: 4,
     title: 'Blood & Lymph',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Helps prevent and battles infections',
       'Improves circulation',
@@ -217,7 +220,7 @@ export const products = [
     category: 4,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Improve digestion system',
       'Improve intestional strength and health',
@@ -230,7 +233,7 @@ export const products = [
     category: 5,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Clean out small and large intestine',
       'Improve immune system',
@@ -244,7 +247,7 @@ export const products = [
     category: 5,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Clean out small and large intestine',
       'Improve immune system',
@@ -258,7 +261,7 @@ export const products = [
     category: 5,
     title: 'GreenTune 7 Day Liver & Gallbladder Cleanse',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Clean out small and large intestine',
       'Improve immune system',
@@ -272,7 +275,7 @@ export const products = [
     category: 6,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Get rid of unwanted bacteria and parasites',
       'Strengthens the immune system',
@@ -284,7 +287,7 @@ export const products = [
     category: 6,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Get rid of unwanted bacteria and parasites',
       'Strengthens the immune system',
@@ -296,7 +299,7 @@ export const products = [
     category: 6,
     title: 'GreenTune 21 Day Parasite Remover Cleanse',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Get rid of unwanted bacteria and parasites',
       'Strengthens the immune system',
@@ -308,7 +311,7 @@ export const products = [
     category: 7,
     title: 'Blood & Lymph',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Helps prevent and battles infections',
       'Improves circulation',
@@ -319,7 +322,7 @@ export const products = [
     category: 7,
     title: 'Blood & Lymph',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Helps prevent and battles infections',
       'Improves circulation',
@@ -330,7 +333,7 @@ export const products = [
     category: 7,
     title: 'Blood & Lymph',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Helps prevent and battles infections',
       'Improves circulation',
@@ -341,7 +344,7 @@ export const products = [
     category: 8,
     title: 'Digest Aid',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Strengthen gut health',
       'Prevent stress to the body and cells',
@@ -353,7 +356,7 @@ export const products = [
     category: 8,
     title: 'Digest Aid',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Strengthen gut health',
       'Prevent stress to the body and cells',
@@ -365,7 +368,7 @@ export const products = [
     category: 8,
     title: 'Digest Aid',
     price: 299.99,
-    img_url: '../../images/product1.png',
+    img_url: image1,
     features: [
       'Strengthen gut health',
       'Prevent stress to the body and cells',
@@ -377,7 +380,7 @@ export const products = [
     category: 9,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Improve digestion system',
       'Improve intestional strength and health',
@@ -390,7 +393,7 @@ export const products = [
     category: 9,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Improve digestion system',
       'Improve intestional strength and health',
@@ -403,7 +406,7 @@ export const products = [
     category: 9,
     title: 'GreenTune 7 Day Intestinal Detox',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Improve digestion system',
       'Improve intestional strength and health',
@@ -416,7 +419,7 @@ export const products = [
     category: 2,
     title: 'Evacu-Ease',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Laxative that improves intestinal wellness',
     ]
@@ -426,7 +429,7 @@ export const products = [
     category: 3,
     title: 'Evacu-Ease',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Laxative that improves intestinal wellness',
     ]
@@ -436,7 +439,7 @@ export const products = [
     category: 1,
     title: 'Evacu-Ease',
     price: 299.99,
-    img_url: '../../images/product2.png',
+    img_url: image2,
     features: [
       'Laxative that improves intestinal wellness',
     ]
