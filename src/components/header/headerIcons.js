@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from 'react-bootstrap/Nav';
 import { RiSettings5Fill } from 'react-icons/ri';
 import { BsCart2 } from 'react-icons/bs';
 
@@ -9,7 +10,11 @@ const HeaderIcons = () => {
         <BsCart2 />
         <span>1</span>
       </div>
-      <div className='menu-icon'><RiSettings5Fill /></div>
+      <div className='menu-icon'>
+        <Nav.Link href="/settings">
+          <RiSettings5Fill />
+        </Nav.Link>
+      </div>
     </div>
   )
 }
