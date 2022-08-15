@@ -67,6 +67,7 @@ const Settings = () => {
           </div>
         </Col>
       </Row>
+      <a href="#">Delete Account</a>
 
       {modalType === 'shipping' && <ShippingAndBillings show={show} onClose={closeModal} />}
       {modalType === 'payment' && <Payment show={show} onClose={closeModal} />}
