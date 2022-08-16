@@ -37,7 +37,7 @@ const Home = () => {
   }
 
   function addToCart(productId) {
-    alert(`you added to cart this product ${productId}`);
+    alert(`you added to cart this product: id is ${productId}`);
   }
 
   const categoryList = categories.map((cat, index) => 
