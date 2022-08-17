@@ -70,10 +70,10 @@ const Home = () => {
   return (
     <Container className='home-container' fluid>
       <Row>
-        <Col lg={3} xs={12}>
+        <Col lg={2} xs={12}>
           <ul>{categoryList}</ul>
         </Col>
-        <Col lg={9} xs={12}>
+        <Col lg={10} xs={12}>
           <h2>Featured Cleanses</h2>
           <div className='product-list'>
             {featuredProductList}

@@ -13,13 +13,13 @@ function Header() {
   return (
     <Container className='app-header' fluid>
       <Row>
-        <Col>
+        <Col lg={3} xs={12}>
           <Nav.Link href="/">
             <Logo />
           </Nav.Link>
         </Col>
-        <Col xs={8}><Search /></Col>
-        <Col><HeaderIcons /></Col>
+        <Col lg={7} xs={12}><Search /></Col>
+        <Col lg={2} xs={12}><HeaderIcons /></Col>
       </Row>
     </Container>
   )

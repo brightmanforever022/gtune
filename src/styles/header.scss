@@ -3,6 +3,7 @@
   font-family: 'Inter';
   .app-logo {
     display: flex;
+    justify-content: center;
     p {
       margin-top: 25px;
       margin-right: 28px;
@@ -28,6 +29,7 @@
   .header-icons {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     margin-top: 20px;
     .menu-icon, .cart-icon {
       font-size: 21px;
