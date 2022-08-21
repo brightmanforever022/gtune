@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Modal from 'react-bootstrap/Modal';
 
 import CategoryItem from './product/category';
 import ProductCard from './product/productCard';
@@ -11,6 +12,7 @@ import '../styles/home.scss';
 const Home = () => {
   const [selectedCategories, setSelectedCategories] = useState([2]);
   const [selectedProducts, setSelectedProducts] = useState(products);
+  const [productId, setProductId] = useState('');
 
   useEffect(() => {
     if(selectedCategories.length === 0) {
@@ -37,7 +39,11 @@ const Home = () => {
   }
 
   function addToCart(productId) {
-    alert(`you added to cart this product: id is ${productId}`);
+    setProductId(productId);
+  }
+
+  function closeAlert() {
+    setProductId('');
   }
 
   const categoryList = categories.map((cat, index) => 
@@ -85,6 +91,19 @@ const Home = () => {
           </div>
         </Col>
       </Row>
+      <Modal
+        show={productId !== ''}
+        onHide={() => closeAlert()}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>
+            Add To Cart
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>you added to cart this product: id is {productId}</p>
+        </Modal.Body>
+      </Modal>
     </Container>
   )
 }
