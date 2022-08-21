@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Modal from 'react-bootstrap/Modal';
 
 import ShippingAndBillings from './shipping';
 import Payment from './payment';
@@ -10,17 +11,21 @@ import Email from './email';
 import '../../styles/settings.scss';
 
 const Settings = () => {
-  const [show, setShow] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState('shipping');
+
   function handleModal (type) {
     setModalType(type);
-    setShow(true);
+    setShowModal(true);
   }
+
   function closeModal () {
-    setShow(false);
+    setShowModal(false);
   }
+
   function deleteAccount() {
-    alert('you are gonna delete account');
+    setModalType('delete-account');
+    setShowModal(true);
   }
 
   return (
@@ -72,10 +77,24 @@ const Settings = () => {
       </Row>
       <a href="#" onClick={deleteAccount}>Delete Account</a>
 
-      {modalType === 'shipping' && <ShippingAndBillings show={show} onClose={closeModal} />}
-      {modalType === 'payment' && <Payment show={show} onClose={closeModal} />}
-      {modalType === 'email' && <Email show={show} onClose={closeModal} />}
-      {modalType === 'password' && <Password show={show} onClose={closeModal} />}
+      <Modal
+        show={modalType === 'delete-account' && showModal}
+        onHide={() => closeModal()}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>
+            Delete Account
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>you are gonna delete account</p>
+        </Modal.Body>
+      </Modal>
+
+      {modalType === 'shipping' && <ShippingAndBillings show={showModal} onClose={closeModal} />}
+      {modalType === 'payment' && <Payment show={showModal} onClose={closeModal} />}
+      {modalType === 'email' && <Email show={showModal} onClose={closeModal} />}
+      {modalType === 'password' && <Password show={showModal} onClose={closeModal} />}
     </Container>
   )
 }
