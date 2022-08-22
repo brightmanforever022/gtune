@@ -13,6 +13,28 @@ import '../../styles/settings.scss';
 const Settings = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState('shipping');
+  const settingsList = [
+    {
+      key: 'shipping',
+      label: 'Add',
+      title: 'Shipping and Billings:'
+    },
+    {
+      key: 'payment',
+      label: 'Add',
+      title: 'Payment Methods:'
+    },
+    {
+      key: 'email',
+      label: 'Edit',
+      title: 'Email: Dac**fd@gmail.com'
+    },
+    {
+      key: 'password',
+      label: 'Edit',
+      title: 'Password: ********'
+    }
+  ]
 
   function handleModal (type) {
     setModalType(type);
@@ -31,50 +53,21 @@ const Settings = () => {
   return (
     <Container className='settings-container' fluid>
       <h2>My Account</h2>
-      <Row>
-        <Col lg={2} md={3} xs={4} className='label'>Add</Col>
-        <Col lg={4} md={6} xs={8}>
-          <div
-            className='edit-setting'
-            onClick={() => handleModal('shipping')}
-          >
-            Shipping and Billings:
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col lg={2} md={3} xs={4} className='label'>Add</Col>
-        <Col lg={4} md={6} xs={8}>
-          <div
-            className='edit-setting'
-            onClick={() => handleModal('payment')}
-          >
-            Payment Methods:
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col lg={2} md={3} xs={4} className='label'>Edit</Col>
-        <Col lg={4} md={6} xs={8}>
-          <div
-            className='edit-setting'
-            onClick={() => handleModal('email')}
-          >
-            Email: Dac**fd@gmail.com
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col lg={2} md={3} xs={4} className='label'>Edit</Col>
-        <Col lg={4} md={6} xs={8}>
-          <div
-            className='edit-setting'
-            onClick={() => handleModal('password')}
-          >
-            Password: ********
-          </div>
-        </Col>
-      </Row>
+      {
+        settingsList.map(settingItem => 
+          <Row>
+            <Col lg={2} md={3} xs={4} className='label'>{settingItem.label}</Col>
+            <Col lg={4} md={6} xs={8}>
+              <div
+                className='edit-setting'
+                onClick={() => handleModal(settingItem.key)}
+              >
+                {settingItem.title}
+              </div>
+            </Col>
+          </Row>
+        )
+      }
       <a href="#" onClick={deleteAccount}>Delete Account</a>
 
       <Modal
