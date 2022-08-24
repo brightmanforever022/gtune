@@ -8,34 +8,13 @@ import ShippingAndBillings from './shipping';
 import Payment from './payment';
 import Password from './password';
 import Email from './email';
+import { settingsList } from '../../constants';
 import '../../styles/settings.scss';
 
 const Settings = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState('shipping');
-  const settingsList = [
-    {
-      key: 'shipping',
-      label: 'Add',
-      title: 'Shipping and Billings:'
-    },
-    {
-      key: 'payment',
-      label: 'Add',
-      title: 'Payment Methods:'
-    },
-    {
-      key: 'email',
-      label: 'Edit',
-      title: 'Email: Dac**fd@gmail.com'
-    },
-    {
-      key: 'password',
-      label: 'Edit',
-      title: 'Password: ********'
-    }
-  ]
-
+  
   function handleModal (type) {
     setModalType(type);
     setShowModal(true);

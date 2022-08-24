@@ -439,3 +439,26 @@ export const products = [
     ]
   },
 ];
+
+export const settingsList = [
+  {
+    key: 'shipping',
+    label: 'Add',
+    title: 'Shipping and Billings:'
+  },
+  {
+    key: 'payment',
+    label: 'Add',
+    title: 'Payment Methods:'
+  },
+  {
+    key: 'email',
+    label: 'Edit',
+    title: 'Email: Dac**fd@gmail.com'
+  },
+  {
+    key: 'password',
+    label: 'Edit',
+    title: 'Password: ********'
+  }
+]
